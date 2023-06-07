@@ -5,7 +5,6 @@ const objeto = {
   skills: {
     lenguaje:["javascript","python","css3","html"],
   },
-  
 }
 
 function readObject(object){
