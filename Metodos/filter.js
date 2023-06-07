@@ -1,4 +1,4 @@
-const names = [{
+const person = [{
   nombre:"luis",
   apellido:"rios",
   puesto:"developer",
