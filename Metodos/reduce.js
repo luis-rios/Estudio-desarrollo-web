@@ -34,14 +34,15 @@ for(let i=0; i<person.length;i++){
 }
 console.log(sumaEdad); */
 
-/*Usando reduce con acumulado de forma declaratica, se coloca dentro de los parametros
-el aculumador y el array con el que se va a trabajar. al final de la funcion se inicializa
+/*Usando reduce con acumulado de forma declarativa, se coloca dentro de los parametros
+el aculumador y el array con el que se va a trabajar y se convierte tambien en cada uno
+de los elementos del array. al final de la funcion se inicializa
 el valor del acunulador  */
 
 /* #ejemplo 1 */
 let resultado = person.reduce(function( acumulador,array){
   return acumulador+=array.edad
-},0 /* valor del acumulador */)
+},0 /* valor inicial del acumulador */)
 /* ---------------------------------------------------------------------- */
 
 /* #ejemplo 2 */
