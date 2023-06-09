@@ -1,4 +1,4 @@
-/* El metodo fine nos permite encontrar el primer elemento dentro de un array */
+/* El metodo find nos permite encontrar el primer elemento dentro de un array */
 const person = [{
   nombre:"luis",
   apellido:"rios",
@@ -34,3 +34,12 @@ console.log(resultado);
 /* #2_ ejemplo: Encontrar a la persona con el nombre luis */
 console.log(person.find(elemento=>{return elemento.nombre==="luis"}));
 /* -------------------------------------------------------------------------------- */
+/* #3_ jemplo: encontrar a una persona con edad mejor a 30 */
+
+let result = person.find(function(elemento){
+  if(elemento.edad>30){
+    return 1
+  }
+})
+
+console.log("3: ",result );
