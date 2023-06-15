@@ -5,5 +5,7 @@ function solution(statues) {
           cont+=1
       }
   }
+
+  
   return cont
 }
