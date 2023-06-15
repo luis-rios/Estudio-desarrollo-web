@@ -1,27 +1,27 @@
-function solution(sequence) {
-  let cont =0;
-  for(let i = 0; i< sequence.length-1;i++){
-      
-      if(sequence[i]>=sequence[i+1]&&sequence[i]<sequence[i+2]){
-          sequence.splice(i+1,1)
-          cont+=1
-          i-=2
-      }
-      else if(sequence[i]>=sequence[i+1]&& i+1 ==sequence.length-1){
-          sequence.splice(i+1,1)
-          cont+=1
-          i-=2
-      }
-      else if(sequence[i]>=sequence[i+1]){
-          sequence.splice(i,1)
-          cont+=1
-          i-=2
-      }
-      
-      if(cont>1){
-      return false
-      }
-  
-  }
-  return true
+const secuencia=[3, 5, 67, 98, 3]
+const secuenciaMasLarga=(array)=>{
+	let contador=0;
+	let siclos=0
+	while (siclos<=array.length-2){
+		if(array[siclos]<array[siclos+1]){			
+			siclos++
+		}else if(siclos<array.length-2&&array[siclos]<array[siclos+2]){
+			array.splice(siclos+1,1)
+			contador+=1
+			siclos=0
+		}else if (siclos===array.length-2&&array[siclos]>=array[siclos+1]){
+			array.splice(siclos+1,1)
+			contador+=1
+			siclos=0
+		}else{
+			array.splice(siclos,1)
+			contador+=1
+			siclos=0
+		}
+		if(contador>1||array.length<3){
+			break
+		}
+	}
+	return contador<2?true:false
 }
+console.log(secuenciaMasLarga(secuencia));
