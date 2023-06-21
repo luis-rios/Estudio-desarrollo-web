@@ -13,6 +13,5 @@ const fizzBuzz=()=>{
       console.log(i,": Buzz")
     }
   }
-  
 }
 fizzBuzz()
