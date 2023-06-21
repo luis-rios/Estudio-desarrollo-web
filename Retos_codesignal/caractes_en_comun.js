@@ -7,7 +7,6 @@ const solution = (st1, st2) => {
       contador++;
     }
   });
-
   return contador;
 };
 console.log(solution("aabcc", "adcaa"));
