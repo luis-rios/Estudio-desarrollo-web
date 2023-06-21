@@ -5,7 +5,6 @@ let rooms =
 [[1,1,1,0], 
  [0,5,0,1], 
  [2,1,3,10]]
-
 const costOfRooms=(array=>{
   let response=0;
   for(let floor=0,building=array[floor].length; floor<building;floor++){
