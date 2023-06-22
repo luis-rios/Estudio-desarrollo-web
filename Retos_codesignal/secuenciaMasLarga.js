@@ -12,8 +12,6 @@ const Secuencia=(array=>{
       contador++
       siclos-=1
     }
-
-    
     else if(array[siclos]>=array[siclos+1]){
       array.splice(siclos+1,1)
       contador++
