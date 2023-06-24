@@ -2,3 +2,4 @@
 igual de derecha a izquierda, que de izquierda a derecha> */
 const Palindromo=(string)=>{return string.split("").reverse().join("")===string?true:false}
 console.log(Palindromo("abac"));
+
