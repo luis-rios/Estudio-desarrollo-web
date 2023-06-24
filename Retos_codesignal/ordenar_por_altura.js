@@ -9,6 +9,7 @@ const Respuesta=(array)=>{
       contador+=1
     }else {
       response.push(item)
+      
     }
   })
   return response
