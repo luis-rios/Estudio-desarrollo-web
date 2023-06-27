@@ -12,7 +12,8 @@
 }
 console.log(solution(10,14,14,10)); */
 const solution=(yl,yr,fl,fr)=>{
-  let me = [yl,yr] = 0
-  let friend = [fl,fr] = 0
+  let me = [yl,yr].sort().join("")
+  let friend = [fl,fr].sort().join("")
+  console.log(me,friend);
 }
 console.log(solution(10,14,14,10));
