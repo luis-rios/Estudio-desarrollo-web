@@ -1,4 +1,4 @@
-const solution = (yl,yr,fl,fr)=>{
+/* const solution = (yl,yr,fl,fr)=>{
   let me=[]
   let fri=[]
   me  [0] = (Math.max(yl,yr))
@@ -9,5 +9,10 @@ const solution = (yl,yr,fl,fr)=>{
   fri = fri.map(item =>{return item.toString()})
   console.log(me,fri);
   return me.join("") == fri.join("")   
+}
+console.log(solution(10,14,14,10)); */
+const solution=(yl,yr,fl,fr)=>{
+  let me = [yl,yr] = 0
+  let friend = [fl,fr] = 0
 }
 console.log(solution(10,14,14,10));
