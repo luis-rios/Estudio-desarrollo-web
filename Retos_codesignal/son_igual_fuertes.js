@@ -17,3 +17,4 @@ const solution=(yl,yr,fl,fr)=>{
   console.log(me,friend);
 }
 console.log(solution(10,14,14,10));
+
