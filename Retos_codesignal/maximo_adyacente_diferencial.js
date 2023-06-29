@@ -10,3 +10,4 @@ const solution=(array)=>{
   return Math.max(...result)
 }
 console.log(solution([-1,4,10,3,-2]));
+
