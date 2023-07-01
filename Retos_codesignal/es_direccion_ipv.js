@@ -13,7 +13,12 @@ console.log(solution("172.16.254.1")); */
    
 }
 console.log(solution("1")); */
-const solution =(string)=>{
+/* const solution =(string)=>{
   const expresion = /^ $/
 }
-console.log(solution(".1.192.255"));
+console.log(solution(".1.192.255")); */
+
+const solution =(string)=>{
+  let secuencia= /^(25()()(){3} |[0-1]?)$/
+}
+console.log(solution("172.16.254.1"));
