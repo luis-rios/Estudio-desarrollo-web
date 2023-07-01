@@ -17,7 +17,6 @@ META CARACTERES Y CUANTIFICADORES: entre los más comunes estan...
 '*' Cero o mas veces
 '+' Uno o más veces
 '?' Uno o cero veces 
-
 SECUENCIAS DE ESCAPE: 
 '\d' cualquier numero del 0 al 9
 '\w' cualquier caracter alfanumerico(letras/numeros) o un guion bajo '_'
